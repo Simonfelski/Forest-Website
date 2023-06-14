@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group</title>
+    <script src="https://kit.fontawesome.com/4669bf3d28.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/dist/css/main.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+<!-- dodaj google fonts -->
+</head>
+
+<nav class="nav-mobile">
+    <button class="burger">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times hide"></i>
+    </button>
+    <ul class="nav-mobile__items">
+        <li><a href="index.html" class="nav-mobile__link">Home</a></li>
+        <li><a href="index.html" class="nav-mobile__link">About Us</a></li>
+        <li><a href="offer.html" class="nav-mobile__link">Offer</a></li>
+        <li><a href="#contact" class="nav-mobile__link">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container contact">
+    <form class="contact__form">
+        <h3>contact us</h3>
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your e-mail" required>
+        <input type="text" id="phone" placeholder="Phone number" required>
+        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+<div class="map">
+    <h3 class="map__title">Our location:</h3>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.897660176275!2d19.890274276859955!3d50.08820291337978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a2d7f0d587f%3A0x15f4e7c36adff6d2!2sJasnog%C3%B3rska%202%2C%2031-358%20Krak%C3%B3w%2C%20Poland!5e0!3m2!1sen!2snl!4v1686582066287!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+
+<footer class="footer">
+  <div class="footer__container">
+    <h2><i class="fa-solid fa-tree"></i>Forest</h2>
+    <div class="footer__lists">
+      <ul class="footer__list">
+        <p>About us</p>
+        <li><a href="#">Story</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+
+      <ul class="footer__list">
+        <p>Our company</p>
+        <li><a href="#">Job</a></li>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Management</a></li>
+      </ul>
+
+      <ul class="footer__list">
+        <p>Documents</p>
+        <li><a href="#">Applications</a></li>
+        <li><a href="#">Reservations</a></li>
+      </ul>
+    </div>
+  </div>
+    <p class="footer__text">&copy;<span class="footer__year"></span> Forest Group Company Ltd.</p>
+  </footer>
+<script src="/dist/js/main.min.js"></script>
+

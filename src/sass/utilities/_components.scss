@@ -1,0 +1,297 @@
+@media (min-width: 768px) {
+	.header {
+		&__img {
+			background-image: url('/dist/img/jungle_desktop.jpg');
+		}
+
+		&__text h1 {
+			font-size: 3rem;
+		}
+
+		&__text p {
+			font-size: 2rem;
+		}
+	}
+
+	.section-one {
+		&__title {
+			font-size: 3.5rem;
+		}
+
+		&__text {
+			padding: 3.5em 0;
+		}
+
+		&__text h2 {
+			font-size: 2.5rem;
+		}
+
+		&__text p {
+			font-size: 1.8rem;
+		}
+	}
+
+	.section-two {
+		background-image: url('/dist/img/child_desktop.jpg');
+
+		&__heading {
+			padding-block: 4rem;
+			padding-inline: 8rem;
+			font-size: 2em;
+		}
+	}
+
+	.section-three {
+		&__title h2 {
+			font-size: 3.5rem;
+		}
+
+		&__special-offer {
+			margin-bottom: 2.5em;
+		}
+	}
+
+	.map {
+		margin: 4em;
+	}
+}
+
+@media (min-width: 992px) {
+	.header {
+		&__img {
+			height: 400px;
+		}
+
+		&__text {
+			left: 10%;
+			top: 35%;
+		}
+
+		&__text h1 {
+			font-size: 3.5em;
+		}
+
+		&__text p {
+			font-size: 2.5em;
+		}
+	}
+
+	.section-one {
+		&__title {
+			font-size: 3.5rem;
+		}
+
+		&__box {
+			display: flex;
+			padding: 0 3em 3em 3em;
+		}
+
+		&__box img {
+			height: 300px;
+		}
+
+		&__text {
+			padding: 0 3.5em 3.5em 3.5em;
+		}
+
+		&__text h2 {
+			font-size: 2rem;
+		}
+
+		&__text p {
+			font-size: 1.6rem;
+		}
+	}
+
+	.section-two {
+		background-image: url('/dist/img/child_desktop.jpg');
+
+		&__heading {
+			padding-block: 7rem;
+			padding-inline: 14rem;
+			font-size: 3em;
+		}
+	}
+
+	.section-three {
+		text-align: center;
+
+		&__title h2 {
+			font-size: 3.5rem;
+		}
+
+		&__title p {
+			font-size: 2.5rem;
+		}
+
+		&__cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__card {
+			margin: 3em;
+			padding: 2em;
+			width: 35%;
+			
+		}
+
+		&__card h3 {
+			font-size: 2.5rem;
+		}
+
+		&__card p {
+			font-size: 3.5em;
+		}
+
+		&__card li {
+			font-size: 1.8rem;
+		}
+
+		&__special-offer {
+			margin-bottom: 3.5em;
+		}
+
+		&__special-offer p {
+			padding-top: 1em;
+			font-size: 2.5rem;
+		}
+	}
+
+	.footer {
+		&__lists {
+			display: flex;
+		}
+
+		&__container h2 {
+			font-size: 4em;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.header {
+		&__img {
+			height: 450px;
+		}
+
+		&__text {
+			left: 10%;
+			top: 35%;
+		}
+
+		&__text h1 {
+			font-size: 4em;
+		}
+
+		&__text p {
+			font-size: 3em;
+		}
+	}
+
+	.section-one {
+		&__title {
+			font-size: 4rem;
+		}
+	}
+
+	.section-two {
+		background-image: url('/dist/img/child_desktop.jpg');
+
+		&__heading {
+			padding-block: 7rem;
+			padding-inline: 14rem;
+			font-size: 4em;
+		}
+	}
+
+	.section-three {
+		text-align: center;
+
+		&__title h2 {
+			font-size: 4rem;
+		}
+
+		&__title p {
+			font-size: 3rem;
+		}
+
+		&__cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		&__special-offer {
+			margin-bottom: 4em;
+		}
+
+		&__special-offer p {
+			padding-top: 1em;
+			font-size: 3rem;
+		}
+	}
+
+	.footer {
+
+		&__container h2 {
+			font-size: 4.5em;
+		}
+	}
+
+	.map {
+		margin-bottom: 5em;
+	}
+}
+
+
+@media (min-width: 1400px) {
+
+	.section-three {
+
+	&__title h2 {
+		margin: 1.5em 0 0.5em;;
+	}
+
+	&__title p {
+		padding-bottom: 1em;
+	}
+
+	&__cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 3em;
+	}
+
+	&__card {
+		margin: 1.5em;
+		padding: 2em;
+		width: 30%;
+	}
+
+	&__card h3 {
+		font-size: 2.5rem;
+	}
+
+	&__card p {
+		font-size: 3.5em;
+	}
+
+	&__card li {
+		font-size: 1.8rem;
+		font-weight: 500;
+	}
+
+	&__card-one li:nth-child(-n + 2) {
+		font-weight: 500;
+	}
+
+	&__card-two li:nth-child(-n + 3) {
+		font-weight: 500;
+	}
+}
+}
