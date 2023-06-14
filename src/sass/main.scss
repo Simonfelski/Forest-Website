@@ -1,5 +1,3 @@
-@use '../sass/utilities/colors' as c;
-
 *,
 *::before,
 *::after {
@@ -328,7 +326,7 @@ body {
 	}
 
 	&__special-offer button:hover {
-		background-color: var(c.$accept-hover)
+		background-color: var(c.$accept-hover);
 	}
 
 	&__special-offer p {
@@ -355,7 +353,7 @@ body {
 
 	&__container {
 		display: flex;
-		align-items:flex-start;
+		align-items: flex-start;
 		justify-content: space-around;
 		margin: 1em;
 	}
@@ -498,7 +496,6 @@ body {
 // MEDIA
 
 @media (min-width: 768px) {
-
 	.header {
 		&__img {
 			background-image: url('/dist/img/jungle_desktop.jpg');
@@ -671,7 +668,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-
 	.header {
 		&__img {
 			height: 450px;
@@ -735,7 +731,6 @@ body {
 	}
 
 	.footer {
-
 		&__container h2 {
 			font-size: 4.5em;
 		}
@@ -746,51 +741,48 @@ body {
 	}
 }
 
-
 @media (min-width: 1400px) {
-
 	.section-three {
+		&__title h2 {
+			margin: 1.5em 0 0.5em;
+		}
 
-	&__title h2 {
-		margin: 1.5em 0 0.5em;;
-	}
+		&__title p {
+			padding-bottom: 1em;
+		}
 
-	&__title p {
-		padding-bottom: 1em;
-	}
+		&__cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-bottom: 3em;
+		}
 
-	&__cards {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		margin-bottom: 3em;
-	}
+		&__card {
+			margin: 1.5em;
+			padding: 2em;
+			width: 30%;
+		}
 
-	&__card {
-		margin: 1.5em;
-		padding: 2em;
-		width: 30%;
-	}
+		&__card h3 {
+			font-size: 2.5rem;
+		}
 
-	&__card h3 {
-		font-size: 2.5rem;
-	}
+		&__card p {
+			font-size: 3.5em;
+		}
 
-	&__card p {
-		font-size: 3.5em;
-	}
+		&__card li {
+			font-size: 1.8rem;
+			font-weight: 500;
+		}
 
-	&__card li {
-		font-size: 1.8rem;
-		font-weight: 500;
-	}
+		&__card-one li:nth-child(-n + 2) {
+			font-weight: 500;
+		}
 
-	&__card-one li:nth-child(-n + 2) {
-		font-weight: 500;
+		&__card-two li:nth-child(-n + 3) {
+			font-weight: 500;
+		}
 	}
-
-	&__card-two li:nth-child(-n + 3) {
-		font-weight: 500;
-	}
-}
 }
