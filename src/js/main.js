@@ -23,13 +23,4 @@ const closeMenu = () => {
 
 handleCurrentYear();
 burgerBtn.addEventListener("click", handleNav);
-navLinks.addEventListener("click", closeMenu);
-
-
-
-// burgerBtn.addEventListener("click", () => {
-//   burgerBtn.classList.toggle("active");
-//   nav.classList.toggle("open");
-//   body.classList.toggle("fixed");
-//   body.classList.toggle("blur");
-// });
+nav.addEventListener("click", closeMenu);
