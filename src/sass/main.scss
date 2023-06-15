@@ -63,7 +63,6 @@ body {
 		inset: 0;
 		font-size: 2em;
 		background-color: c.$black-color;
-		border-radius: 8px;
 		translate: 0 -100%;
 		transition: transform 0.5s;
 	}
@@ -576,46 +575,6 @@ body {
 		}
 	}
 
-	// .burger-icon {
-	// 	display: none;
-	// }
-
-	// .nav {
-	// 	display: flex;
-	// 	justify-content: space-between;
-
-	// 	&__items {
-	// 		display: flex;
-	// 		width: 100%;
-	// 		height: 100vh;
-	// 		top: -100vh;
-	// 		font-size: 2rem;
-	// 		list-style: none;
-	// 		background-color: c.$black-color;
-	// 		transition: transform 0.5s;
-	// 		z-index: 11;
-	// 	}
-
-	// 	&__items-link {
-	// 		display: flex;
-	// 		flex-direction: row;
-	// 		padding: 0 3em;
-	// 		text-decoration: none;
-	// 		text-transform: uppercase;
-	// 		font-weight: bold;
-	// 		color: c.$black-color;
-	// 		transition: color 0.4s;
-	// 	}
-
-	// 	&__items-link:hover {
-	// 		color: c.$white-color;
-	// 		background-color: c.$black-color;
-	// 	}
-
-	// 	&__items-link:hover {
-	// 		transform: scale(1.2);
-	// 	}
-	// }
 	.burger-icon {
 		display: none;
 	  }
