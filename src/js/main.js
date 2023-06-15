@@ -1,7 +1,8 @@
-const burgerBtn = document.querySelector(".burger");
+const burgerBtn = document.querySelector(".burger-icon");
 const barsIcon = document.querySelector(".fa-bars");
 const xIcon = document.querySelector(".fa-times");
-const nav = document.querySelector(".nav-mobile__items");
+const nav = document.querySelector(".nav__items");
+const navLinks = document.querySelectorAll(".nav__items-link");
 const footerYear = document.querySelector(".footer__year");
 
 
@@ -13,15 +14,17 @@ const handleCurrentYear = () => {
 
 const handleNav = () => {
   nav.classList.toggle("active")
-  burgerBtn.classList.toggle("active")
-  barsIcon.classList.toggle("hide")
-  xIcon.classList.toggle("hide")
 }
 
+const closeMenu = () => {
+  nav.classList.remove("active")
+}
 
 
 handleCurrentYear();
 burgerBtn.addEventListener("click", handleNav);
+navLinks.addEventListener("click", closeMenu);
+
 
 
 // burgerBtn.addEventListener("click", () => {
