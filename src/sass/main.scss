@@ -28,7 +28,7 @@ body {
 	max-width: 1200px;
 }
 
-.active {
+.show {
 	transform: translateY(100vh);
 }
 
@@ -45,7 +45,7 @@ body {
 
 .nav {
 	padding-block: 1rem;
-	background-color: c.$white-color;
+	background-color: c.$footer-background;
 	z-index: 10;
 
 	&__container {
@@ -77,10 +77,11 @@ body {
 		transition: transform 0.3s;
 	}
 
+	&__items-link.active,
 	&__items-link:hover {
-		transform: scale(1.2);
+		transform: scale(1.1);
 		color: c.$black-color;
-		background-color: c.$white-color;
+		background-color: c.$text-grey;
 	}
 
 	&__brand {
